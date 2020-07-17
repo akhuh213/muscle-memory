@@ -86,3 +86,39 @@ paragraphFour.textContent = 'Kyrie Irving';
 const paragraphFive = document.querySelector('.paragraph-five');
 paragraphFive.textContent = 'Damien Lillard';
 
+const containerSix = document.createElement('div');
+containerSix.classList.add('container-six');
+console.log(containerSix);
+
+const sectionSix = document.createElement('h2');
+sectionSix.setAttribute('id','section-six');
+console.log(sectionSix);
+sectionSix.textContent = 'Rockets';
+console.log(sectionSix);
+
+const paragraphSix = document.createElement('p');
+paragraphSix.classList.add('paragraph-six');
+paragraphSix.textContent = 'James'
+console.log(paragraphSix);
+
+const body = document.querySelector('body');
+
+body.appendChild(containerSix);
+containerSix.appendChild(sectionSix);
+containerSix.appendChild(paragraphSix);
+
+const containerSeven = document.createElement('div');
+containerSix.classList.add('container-seven');
+
+const sectionSeven = document.createElement('h2');
+sectionSeven.setAttribute('id','section-seven');
+sectionSeven.textContent = 'hmm';
+
+const paragraphSeven = document.createElement('p');
+paragraphSeven.classList.add('paragraph-seven');
+paragraphSeven.textContent = 'not a big Fan, sorry';
+
+
+body.appendChild(containerSeven);
+body.appendChild(sectionSeven);
+body.appendChild(paragraphSeven);
